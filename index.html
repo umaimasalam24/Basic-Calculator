@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>🖩 Basic Calculator</title>
+</head>
+<body>
+    <div class="container">
+        <h1> 🖩 Basic Calculator</h1>
+        <label>First Number: </label>
+        <input type="number" id="number" placeholder="Enter Your Number">
+        <label>Choose you Operator: </label>
+<select id="operator">
+    <option value="">Choose</option>
+    <option value="+">+</option>
+    <option value="-">-</option>
+    <option value="*">*</option>
+    <option value="/">/</option>
+</select>
+<label>Second Number: </label>
+        <input type="number" id="number2" placeholder="Enter Your Number">
+
+      <button id="calculate">=</button>
+      <label>Result: </label>
+      <input type="text" id="result" readonly>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
