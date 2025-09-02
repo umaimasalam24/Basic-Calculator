@@ -1,0 +1,90 @@
+/* General reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Page background */
+body {
+  background-color: #121212; /* Dark black-grey */
+  color: #f0f0f0; /* Light text */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Container */
+.container {
+  background-color: #1e1e1e; /* Dark grey box */
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.6);
+  width: 350px;
+  text-align: center;
+}
+
+/* Heading */
+.container h1 {
+  margin-bottom: 20px;
+  color: #ffffff;
+  font-size: 1.8rem;
+  letter-spacing: 1px;
+}
+
+/* Labels */
+label {
+  display: block;
+  text-align: left;
+  margin: 10px 0 5px;
+  font-size: 0.95rem;
+  color: #cccccc;
+  text-align: center;
+}
+
+/* Inputs */
+input, select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  background-color: #2a2a2a;
+  color: #ffffff;
+  outline: none;
+  text-align: center;
+}
+
+input:focus, select:focus {
+  background-color: #333333;
+  border: 1px solid #555;
+}
+
+/* Button */
+button {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  background-color: #444;
+  color: #ffffff;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+button:hover {
+  background-color: #666;
+}
+
+/* Result field */
+#result {
+  background-color: #2a2a2a;
+  font-weight: bold;
+  text-align: center;
+  cursor: not-allowed;
+}
